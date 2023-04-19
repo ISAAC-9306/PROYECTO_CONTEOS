@@ -7,8 +7,7 @@ int p(int n){
      do {
         resultado = resultado * k;
         k = k + 1;
-    } 
-	while( k <= n );
+    } while( k <= n );
 	
     return resultado;
 }
